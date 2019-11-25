@@ -2,15 +2,29 @@
 
 # 1. Quanto tempo você usou para completar a solução apresentada? O que você faria se
 tivesse mais tempo? O que poderia melhorar, na sua solução?
+
 ## dia 23 de novembro de 2019 => 14h e parei as 21h;
 ## dia 24 de novembro de 2019 => 16h e parei as 19h;
+## dia 25 de novembro de 2019 => 10h e parei as 17h;
+
+## Se eu tivese mais tempo, melhoraria a questão do Calendário, na própria data ao clicar, já chamaria uma tela para o usuário validar o 
+seu nome e email. E também teria feito com Hooks ao inves de usar Redux, porque assim e mais tranquilo usar as Stateless ao invéz de
+Statefull
 
 # 2. Qual sua opinião sobre o ReactJS, descreva a sua maior qualidade na sua opinião, e seu
 maior defeito como framework.
-##
+
+## O React JS e muito bom é muito fácil de se aprender e trabalhar, eu tentei várias vezes estudar e aprender o Angular e Vue, e ambos eu 
+não tive uma curva de aprendizado rápida assim como o React JS, pra mim e uma das principais vantagens do React JS a faciliade de aprender,
+e também por eu ter estudado na Rockeseat na turma 6, com eles foi muito tranquilo aprender React JS, e hoje me dia o que precisar fazer e só
+ver uma documentação e desenvolver a sua nessecidade.
+
+## Não tem como apontar o maior defeito, em todas as tecnologias tem suas vantagens e desvantagens
 
 # 3. Qual foi sua maior dificuldade ao desenvolver o projeto?
-##
+
+## Pra mim foi o tempo, porque eu não pude caprichar como sempre eu faço, porque tudo o que eu faço e com muito capricho e dedicação, 
+para ter sempre um Clean Code, e assim sempre evitar retrabalho.
 
 
 ## sources:

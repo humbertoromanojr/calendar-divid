@@ -77,7 +77,7 @@ class Empresas extends Component {
         </Card>
       ))
       ) : (
-        <div>Not found</div>
+        <div>searching...</div>
     );
 
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { connect } from 'react-redux';
+import * as actions from './store/actions';
 
 import api from './services/api'
 import Header from './components/Header'
@@ -54,6 +56,8 @@ class Calendar extends React.Component {
       this.setState({
         pagamentos: res.data
       });
+
+      console.log('APi: ', res.data)
     });
   }
 
@@ -207,12 +211,9 @@ class Calendar extends React.Component {
   }
 
   render() {
-    console.log(this.state.calendar);
     let data = new Date();
     let currentDay  = data.getDate();
-    console.log('currentDay', currentDay);
-    
-    
+   
     return (
       <div>
         <Header/>
@@ -250,4 +251,13 @@ class Calendar extends React.Component {
   }
 }
 
-export default Calendar
+const mapDispatchToProps = dispatch => ({
+  addCalendar: (date) => {
+    dispatch(actions.addCalendar(date));
+  },
+});
+
+export default connect(
+  null,
+  mapDispatchToProps,
+)(Calendar);
