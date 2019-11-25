@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 10px; 
+  margin-left: 30px; 
+  padding: 10px;
+  justify-content: 'center'; 
+  align-items: 'center'; 
+  align-content: 'center';
+  transition: all 0.3s ease; 
+}
+
+.card:hover {
+  width: 18rem;
+  margin-top: 10px; 
+  margin-left: 30px; 
+  padding: 10px;
+  justify-content: 'center'; 
+  align-items: 'center'; 
+  align-content: 'center';
+  transition: all 0.3s ease; 
+  background-color: rgba(192, 235, 236, 0.5);
+  box-shadow: 3px 3px 3px;
+}
